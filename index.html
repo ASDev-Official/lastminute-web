@@ -1,137 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LastMinute</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header class="topbar">
-        <div class="logo">LastMinute</div>
-        <nav>
-            <a href="#features">Features</a>
-            <a href="#focus">Study Mode</a>
-            <a href="#cta">Get Started</a>
-        </nav>
-        <a class="pill" href="https://app.lastminute.aadish.dev" aria-label="Open LastMinute web app">
-            <span class="pill-icon"><i class="fas fa-bolt"></i></span>
-            <span>Open App</span>
-        </a>
+      <div class="logo">LastMinute</div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#focus">Study Mode</a>
+        <a href="#cta">Get Started</a>
+      </nav>
+      <a
+        class="pill"
+        href="https://app.lastminute.aadish.dev"
+        aria-label="Open LastMinute web app"
+      >
+        <span class="pill-icon"><i class="fas fa-bolt"></i></span>
+        <span>Open App</span>
+      </a>
     </header>
 
     <main>
-        <section class="hero" id="hero">
-            <div class="hero-text">
-                <p class="eyebrow"><i class="fas fa-clock"></i> Because deadlines always sneak up.</p>
-                <h1>Plan ahead, stay focused, finish on time.</h1>
-                <p class="lede">Keep homework, deadlines, and schedules in one distraction-light workspace with smart reminders and sync that just works.</p>
-                <div class="cta-row">
-                    <a class="btn primary" href="https://app.lastminute.aadish.dev"><i class="fas fa-rocket"></i> Launch Web App</a>
-                    <a class="btn ghost coming-soon" aria-disabled="true"><i class="fab fa-google-play"></i> Play Store (soon)</a>
-                </div>
-                <div class="pill soft">
-                    <span class="pill-icon"><i class="fas fa-shield-alt"></i></span>
-                    <span>Secure Google Sign-In · Cloud backup</span>
-                </div>
-            </div>
-            <div class="hero-card" aria-label="Unified calendar preview">
-                <div class="card-header">
-                    <span>Today</span>
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-                <ul class="task-list">
-                    <li><span class="dot due"></span><div><strong>Math worksheet</strong><small>Due today · Subject: Algebra</small></div><span class="time">4h</span></li>
-                    <li><span class="dot focus"></span><div><strong>Study block</strong><small>Focus · 45 mins</small></div><span class="time">6 PM</span></li>
-                    <li><span class="dot upcoming"></span><div><strong>History outline</strong><small>Due tomorrow · Timeline draft</small></div><span class="time">18h</span></li>
-                </ul>
-                <div class="card-footer">
-                    <span><i class="fas fa-bell"></i> Smart reminders on</span>
-                    <span><i class="fas fa-sync"></i> Synced</span>
-                </div>
-            </div>
-        </section>
+      <section class="hero" id="hero">
+        <div class="hero-text">
+          <p class="eyebrow">
+            <i class="fas fa-clock"></i> Because deadlines always sneak up.
+          </p>
+          <h1>Plan ahead, stay focused, finish on time.</h1>
+          <p class="lede">
+            Keep homework, deadlines, and schedules in one distraction-light
+            workspace with smart reminders and sync that just works.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="https://app.lastminute.aadish.dev"
+              ><i class="fas fa-rocket"></i> Launch Web App</a
+            >
+            <a
+              class="btn ghost"
+              href="https://play.google.com/store/apps/details?id=com.aadishsamir.lastminute"
+              ><i class="fab fa-google-play"></i> Play Store</a
+            >
+          </div>
+          <div class="pill soft">
+            <span class="pill-icon"><i class="fas fa-shield-alt"></i></span>
+            <span>Secure Google Sign-In · Cloud backup</span>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Unified calendar preview">
+          <div class="card-header">
+            <span>Today</span>
+            <i class="fas fa-ellipsis-h"></i>
+          </div>
+          <ul class="task-list">
+            <li>
+              <span class="dot due"></span>
+              <div>
+                <strong>Math worksheet</strong
+                ><small>Due today · Subject: Algebra</small>
+              </div>
+              <span class="time">4h</span>
+            </li>
+            <li>
+              <span class="dot focus"></span>
+              <div>
+                <strong>Study block</strong><small>Focus · 45 mins</small>
+              </div>
+              <span class="time">6 PM</span>
+            </li>
+            <li>
+              <span class="dot upcoming"></span>
+              <div>
+                <strong>History outline</strong
+                ><small>Due tomorrow · Timeline draft</small>
+              </div>
+              <span class="time">18h</span>
+            </li>
+          </ul>
+          <div class="card-footer">
+            <span><i class="fas fa-bell"></i> Smart reminders on</span>
+            <span><i class="fas fa-sync"></i> Synced</span>
+          </div>
+        </div>
+      </section>
 
-        <section class="feature-grid" id="features">
-            <div class="feature">
-                <div class="icon"><i class="fas fa-check-circle"></i></div>
-                <h3>Fast capture</h3>
-                <p>Add title, details, subject, and due date in seconds.</p>
-            </div>
-            <div class="feature">
-                <div class="icon"><i class="fas fa-calendar-alt"></i></div>
-                <h3>Unified calendar</h3>
-                <p>See upcoming assignments alongside your schedule.</p>
-            </div>
-            <div class="feature">
-                <div class="icon"><i class="fas fa-bell"></i></div>
-                <h3>Smart reminders</h3>
-                <p>Timely notifications so deadlines never surprise you.</p>
-            </div>
-            <div class="feature">
-                <div class="icon"><i class="fas fa-lightbulb"></i></div>
-                <h3>Study Mode</h3>
-                <p>A minimal, focus-first screen that keeps your display awake.</p>
-            </div>
-            <div class="feature">
-                <div class="icon"><i class="fas fa-lock"></i></div>
-                <h3>Secure sync</h3>
-                <p>Google Sign-In and Firebase backup for peace of mind.</p>
-            </div>
-            <div class="feature">
-                <div class="icon"><i class="fas fa-desktop"></i></div>
-                <h3>Polished UI</h3>
-                <p>Built with Flutter for speed, reliability, and a clean feel.</p>
-            </div>
-        </section>
+      <section class="feature-grid" id="features">
+        <div class="feature">
+          <div class="icon"><i class="fas fa-check-circle"></i></div>
+          <h3>Fast capture</h3>
+          <p>Add title, details, subject, and due date in seconds.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><i class="fas fa-calendar-alt"></i></div>
+          <h3>Unified calendar</h3>
+          <p>See upcoming assignments alongside your schedule.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><i class="fas fa-bell"></i></div>
+          <h3>Smart reminders</h3>
+          <p>Timely notifications so deadlines never surprise you.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Study Mode</h3>
+          <p>A minimal, focus-first screen that keeps your display awake.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><i class="fas fa-lock"></i></div>
+          <h3>Secure sync</h3>
+          <p>Google Sign-In and Firebase backup for peace of mind.</p>
+        </div>
+        <div class="feature">
+          <div class="icon"><i class="fas fa-desktop"></i></div>
+          <h3>Polished UI</h3>
+          <p>Built with Flutter for speed, reliability, and a clean feel.</p>
+        </div>
+      </section>
 
-        <section class="focus" id="focus">
-            <div class="focus-text">
-                <p class="eyebrow"><i class="fas fa-moon"></i> Study Mode</p>
-                <h2>Less noise, more progress.</h2>
-                <p>Distraction-light screens, glanceable timers, and awake display so you can power through crunch time without context switching.</p>
-                <div class="badge-row">
-                    <span class="badge"><i class="fas fa-bolt"></i> Keeps screen awake</span>
-                    <span class="badge"><i class="fas fa-magic"></i> Minimal UI</span>
-                    <span class="badge"><i class="fas fa-headphones"></i> Focus friendly</span>
-                </div>
-            </div>
-            <div class="focus-card" aria-label="Focus timer preview">
-                <div class="timer">25:00</div>
-                <p class="timer-label">Deep focus · Writing outline</p>
-                <div class="timer-controls">
-                    <button aria-label="Pause"><i class="fas fa-pause"></i></button>
-                    <button aria-label="Skip"><i class="fas fa-forward"></i></button>
-                    <button aria-label="Stop"><i class="fas fa-stop"></i></button>
-                </div>
-            </div>
-        </section>
+      <section class="focus" id="focus">
+        <div class="focus-text">
+          <p class="eyebrow"><i class="fas fa-moon"></i> Study Mode</p>
+          <h2>Less noise, more progress.</h2>
+          <p>
+            Distraction-light screens, glanceable timers, and awake display so
+            you can power through crunch time without context switching.
+          </p>
+          <div class="badge-row">
+            <span class="badge"
+              ><i class="fas fa-bolt"></i> Keeps screen awake</span
+            >
+            <span class="badge"><i class="fas fa-magic"></i> Minimal UI</span>
+            <span class="badge"
+              ><i class="fas fa-headphones"></i> Focus friendly</span
+            >
+          </div>
+        </div>
+        <div class="focus-card" aria-label="Focus timer preview">
+          <div class="timer">25:00</div>
+          <p class="timer-label">Deep focus · Writing outline</p>
+          <div class="timer-controls">
+            <button aria-label="Pause"><i class="fas fa-pause"></i></button>
+            <button aria-label="Skip"><i class="fas fa-forward"></i></button>
+            <button aria-label="Stop"><i class="fas fa-stop"></i></button>
+          </div>
+        </div>
+      </section>
 
-        <section class="cta" id="cta">
-            <div>
-                <h2>Turn crunch time into calm, consistent progress.</h2>
-                <p>Stay organized, plan smarter, and finish on time with LastMinute.</p>
-                <div class="cta-row">
-                    <a class="btn primary" href="https://app.lastminute.aadish.dev"><i class="fas fa-arrow-right"></i> Get started free</a>
-                    <a class="btn ghost coming-soon" aria-disabled="true"><i class="fab fa-google-play"></i> Play Store (soon)</a>
-                </div>
-            </div>
-        </section>
+      <section class="cta" id="cta">
+        <div>
+          <h2>Turn crunch time into calm, consistent progress.</h2>
+          <p>
+            Stay organized, plan smarter, and finish on time with LastMinute.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="https://app.lastminute.aadish.dev"
+              ><i class="fas fa-arrow-right"></i> Get started free</a
+            >
+            <a class="btn ghost coming-soon" aria-disabled="true"
+              ><i class="fab fa-google-play"></i> Play Store (soon)</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="footer-links">
-            <span>© 2026 Aadish Samir</span>
-            <a href="https://aadish.dev/legal/projects/lastminute/privacypolicy">Privacy Policy</a>
-        </div>
-        <div class="footer-actions">
-            <a class="footer-btn" href="https://app.lastminute.aadish.dev"><i class="fas fa-external-link-alt"></i> Web App</a>
-            <a class="footer-btn muted" aria-disabled="true"><i class="fab fa-google-play"></i> Play Store (soon)</a>
-        </div>
+      <div class="footer-links">
+        <span>© 2026 Aadish Samir</span>
+        <a href="https://aadish.dev/legal/projects/lastminute/privacypolicy"
+          >Privacy Policy</a
+        >
+      </div>
+      <div class="footer-actions">
+        <a class="footer-btn" href="https://app.lastminute.aadish.dev"
+          ><i class="fas fa-external-link-alt"></i> Web App</a
+        >
+        <a class="footer-btn muted" aria-disabled="true"
+          ><i class="fab fa-google-play"></i> Play Store (soon)</a
+        >
+      </div>
     </footer>
-</body>
+  </body>
 </html>
